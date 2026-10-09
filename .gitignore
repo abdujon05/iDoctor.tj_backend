@@ -1,0 +1,25 @@
+## Build output
+bin/
+obj/
+out/
+
+## Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+## macOS
+.DS_Store
+
+## Logs, temp files
+*.log
+*.tmp
+
+## Test results
+TestResults/
+
+## NuGet
+*.nupkg
+EOF
