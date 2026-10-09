@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="iDoctor.Api/iDoctor.Api.csproj" />
+  <Project Path="iDoctor.Domain/iDoctor.Domain.csproj" />
+  <Project Path="iDoctor.Infrastructure/iDoctor.Infrastructure.csproj" />
+</Solution>

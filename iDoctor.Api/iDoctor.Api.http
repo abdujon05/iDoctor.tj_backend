@@ -1,0 +1,6 @@
+@iDoctor.Api_HostAddress = http://localhost:5195
+
+GET {{iDoctor.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
