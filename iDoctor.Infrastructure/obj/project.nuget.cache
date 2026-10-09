@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R015qsDtNp8=",
+  "dgSpecHash": "/eWkuln80Gg=",
   "success": true,
-  "projectFilePath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj",
+  "projectFilePath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/abduqodir/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/abduqodir/.nuget/packages/microsoft.aspnetcore.cryptography.internal/10.0.12/microsoft.aspnetcore.cryptography.internal.10.0.12.nupkg.sha512",

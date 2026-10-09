@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj": {}
+    "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj": {}
   },
   "projects": {
-    "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj": {
+    "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj",
+        "projectUniqueName": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj",
         "projectName": "iDoctor.Domain",
-        "projectPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj",
+        "projectPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj",
         "packagesPath": "/Users/abduqodir/.nuget/packages/",
-        "outputPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/obj/",
+        "outputPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/abduqodir/.nuget/NuGet/NuGet.Config"

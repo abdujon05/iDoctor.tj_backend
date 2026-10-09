@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gAmQTRubtXw=",
+  "dgSpecHash": "CjeFkbP5B8I=",
   "success": true,
-  "projectFilePath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj",
+  "projectFilePath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/abduqodir/.nuget/packages/microsoft.aspnetcore.cryptography.internal/10.0.12/microsoft.aspnetcore.cryptography.internal.10.0.12.nupkg.sha512",
     "/Users/abduqodir/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/10.0.12/microsoft.aspnetcore.cryptography.keyderivation.10.0.12.nupkg.sha512",

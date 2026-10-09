@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Api/iDoctor.Api.csproj": {}
+    "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Api/iDoctor.Api.csproj": {}
   },
   "projects": {
-    "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Api/iDoctor.Api.csproj": {
+    "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Api/iDoctor.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Api/iDoctor.Api.csproj",
+        "projectUniqueName": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Api/iDoctor.Api.csproj",
         "projectName": "iDoctor.Api",
-        "projectPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Api/iDoctor.Api.csproj",
+        "projectPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Api/iDoctor.Api.csproj",
         "packagesPath": "/Users/abduqodir/.nuget/packages/",
-        "outputPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Api/obj/",
+        "outputPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/abduqodir/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj": {
-                "projectPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj"
+              "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj": {
+                "projectPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj"
               },
-              "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj": {
-                "projectPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj"
+              "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj": {
+                "projectPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj"
               }
             }
           }
@@ -507,14 +507,14 @@
         }
       }
     },
-    "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj": {
+    "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj",
+        "projectUniqueName": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj",
         "projectName": "iDoctor.Domain",
-        "projectPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj",
+        "projectPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj",
         "packagesPath": "/Users/abduqodir/.nuget/packages/",
-        "outputPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/obj/",
+        "outputPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/abduqodir/.nuget/NuGet/NuGet.Config"
@@ -846,14 +846,14 @@
         }
       }
     },
-    "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj": {
+    "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj",
+        "projectUniqueName": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj",
         "projectName": "iDoctor.Infrastructure",
-        "projectPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj",
+        "projectPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Infrastructure/iDoctor.Infrastructure.csproj",
         "packagesPath": "/Users/abduqodir/.nuget/packages/",
-        "outputPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/obj/",
+        "outputPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/abduqodir/.nuget/NuGet/NuGet.Config"
@@ -868,8 +868,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj": {
-                "projectPath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Domain/iDoctor.Domain.csproj"
+              "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj": {
+                "projectPath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Domain/iDoctor.Domain.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5xK8BaylVLQ=",
+  "dgSpecHash": "l3yW+vr3ma8=",
   "success": true,
-  "projectFilePath": "/Users/abduqodir/Desktop/MedFind/backend/iDoctor.Api/iDoctor.Api.csproj",
+  "projectFilePath": "/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Api/iDoctor.Api.csproj",
   "expectedPackageFiles": [
     "/Users/abduqodir/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/abduqodir/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/10.0.12/microsoft.aspnetcore.authentication.jwtbearer.10.0.12.nupkg.sha512",
