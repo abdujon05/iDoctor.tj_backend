@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iDoctor.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c613b7f3b7838b29f3f26422ef33ae14da1ece1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+469e316934670fc00a49a6264b871eb0eaffecc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("iDoctor.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iDoctor.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

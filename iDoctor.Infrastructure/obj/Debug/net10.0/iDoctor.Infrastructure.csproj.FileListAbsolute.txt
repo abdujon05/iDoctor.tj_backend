@@ -33,3 +33,4 @@
 /Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/obj/Debug/net10.0/iDoctor.Infrastructure.pdb
 /Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/obj/Debug/net10.0/iDoctor.Infrastructure.genruntimeconfig.cache
 /Users/abduqodir/Desktop/MedFind/backend/iDoctor.Infrastructure/obj/Debug/net10.0/ref/iDoctor.Infrastructure.dll
+/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Infrastructure/obj/Debug/net10.0/iDoctor.Infrastructure.sourcelink.json

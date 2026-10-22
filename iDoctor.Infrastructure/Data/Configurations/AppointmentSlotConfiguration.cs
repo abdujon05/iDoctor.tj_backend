@@ -8,7 +8,8 @@ public class AppointmentSlotConfiguration : IEntityTypeConfiguration<Appointment
 {
     public void Configure(EntityTypeBuilder<AppointmentSlot> builder)
     {
-        builder.ToTable("appointment_slots");
+        builder.ToTable("appointment_slots", t =>
+            t.HasCheckConstraint("ck_slot_time_range", "\"EndTime\" > \"StartTime\""));
 
         builder.Property(s => s.Status)
             .HasConversion<string>()

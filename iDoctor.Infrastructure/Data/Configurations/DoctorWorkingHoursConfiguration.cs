@@ -9,8 +9,12 @@ public class DoctorWorkingHoursConfiguration : IEntityTypeConfiguration<DoctorWo
     public void Configure(EntityTypeBuilder<DoctorWorkingHours> builder)
     {
         builder.ToTable("doctor_working_hours", t =>
-            t.HasCheckConstraint("ck_day_of_week", "\"DayOfWeek\" BETWEEN 0 AND 6"));
-            
+        {
+            t.HasCheckConstraint("ck_day_of_week", "\"DayOfWeek\" BETWEEN 0 AND 6");
+            t.HasCheckConstraint("ck_working_hours_range", "\"EndTime\" > \"StartTime\"");
+            t.HasCheckConstraint("ck_slot_duration", "\"SlotDurationMinutes\" BETWEEN 5 AND 240");
+        });
+
         builder.HasOne(w => w.Doctor)
             .WithMany(d => d.WorkingHours)
             .HasForeignKey(w => w.DoctorId)

@@ -19,10 +19,15 @@ public class AppointmentConfiguration : IEntityTypeConfiguration<Appointment>
         builder.Property(a => a.CancelReason).HasMaxLength(500);
 
         builder.HasOne(a => a.Slot)
-            .WithOne(s => s.Appointment)
-            .HasForeignKey<Appointment>(a => a.SlotId)
+            .WithMany(s => s.Appointments)
+            .HasForeignKey(a => a.SlotId)
             .OnDelete(DeleteBehavior.Restrict);
-        builder.HasIndex(a => a.SlotId).IsUnique();
+
+        // Only ONE active appointment per slot. Cancelled ones stay as history,
+        // so a cancelled slot can be booked again.
+        builder.HasIndex(a => a.SlotId)
+            .IsUnique()
+            .HasFilter("\"Status\" NOT IN ('CancelledByPatient', 'CancelledByDoctor')");
 
         builder.HasOne(a => a.Patient)
             .WithMany(p => p.Appointments)

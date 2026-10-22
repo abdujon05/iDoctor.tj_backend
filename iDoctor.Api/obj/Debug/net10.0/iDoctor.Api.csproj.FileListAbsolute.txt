@@ -275,3 +275,4 @@
 /Users/abduqodir/Desktop/MedFind/backend/iDoctor.Api/obj/Debug/net10.0/iDoctor.Api.pdb
 /Users/abduqodir/Desktop/MedFind/backend/iDoctor.Api/obj/Debug/net10.0/iDoctor.Api.genruntimeconfig.cache
 /Users/abduqodir/Desktop/MedFind/backend/iDoctor.Api/obj/Debug/net10.0/ref/iDoctor.Api.dll
+/Users/abduqodir/Desktop/iDoctor.tj/iDoctor.Api/obj/Debug/net10.0/iDoctor.Api.sourcelink.json

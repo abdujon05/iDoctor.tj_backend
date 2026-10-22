@@ -230,7 +230,8 @@ namespace iDoctor.Infrastructure.Data.Migrations
                     b.HasIndex("PatientId");
 
                     b.HasIndex("SlotId")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasFilter("\"Status\" NOT IN ('CancelledByPatient', 'CancelledByDoctor')");
 
                     b.HasIndex("Status");
 
@@ -276,7 +277,10 @@ namespace iDoctor.Infrastructure.Data.Migrations
                     b.HasIndex("DoctorId", "SlotDate", "StartTime")
                         .IsUnique();
 
-                    b.ToTable("appointment_slots", (string)null);
+                    b.ToTable("appointment_slots", null, t =>
+                        {
+                            t.HasCheckConstraint("ck_slot_time_range", "\"EndTime\" > \"StartTime\"");
+                        });
                 });
 
             modelBuilder.Entity("iDoctor.Domain.Entities.City", b =>
@@ -412,6 +416,10 @@ namespace iDoctor.Infrastructure.Data.Migrations
                     b.ToTable("doctor_working_hours", null, t =>
                         {
                             t.HasCheckConstraint("ck_day_of_week", "\"DayOfWeek\" BETWEEN 0 AND 6");
+
+                            t.HasCheckConstraint("ck_slot_duration", "\"SlotDurationMinutes\" BETWEEN 5 AND 240");
+
+                            t.HasCheckConstraint("ck_working_hours_range", "\"EndTime\" > \"StartTime\"");
                         });
                 });
 
@@ -655,8 +663,8 @@ namespace iDoctor.Infrastructure.Data.Migrations
                         .IsRequired();
 
                     b.HasOne("iDoctor.Domain.Entities.AppointmentSlot", "Slot")
-                        .WithOne("Appointment")
-                        .HasForeignKey("iDoctor.Domain.Entities.Appointment", "SlotId")
+                        .WithMany("Appointments")
+                        .HasForeignKey("SlotId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
@@ -748,7 +756,7 @@ namespace iDoctor.Infrastructure.Data.Migrations
 
             modelBuilder.Entity("iDoctor.Domain.Entities.AppointmentSlot", b =>
                 {
-                    b.Navigation("Appointment");
+                    b.Navigation("Appointments");
                 });
 
             modelBuilder.Entity("iDoctor.Domain.Entities.City", b =>

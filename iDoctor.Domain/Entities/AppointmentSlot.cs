@@ -15,5 +15,5 @@ public class AppointmentSlot
     public TimeOnly EndTime { get; set; }
     public SlotStatus Status { get; set; } = SlotStatus.Available;
 
-    public Appointment? Appointment { get; set; }
+    public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
 }
