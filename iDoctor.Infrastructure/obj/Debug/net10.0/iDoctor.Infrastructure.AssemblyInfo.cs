@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iDoctor.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+469e316934670fc00a49a6264b871eb0eaffecc6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+127fc5104ac210e3d350f5a9cefd83b137abf4f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("iDoctor.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iDoctor.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
